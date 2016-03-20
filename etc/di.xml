@@ -3,8 +3,8 @@
     <type name="Magento\Framework\Console\CommandList">
         <arguments>
             <argument name="commands" xsi:type="array">
-                <item name="Osrecio\Commandmodulelist"
-                      xsi:type="object">Osrecio\Commandmodulelist\Command\Modulelist</item>
+                <item name="Osrecio\CommandModuleList"
+                      xsi:type="object">Osrecio\CommandModuleList\Command\Modulelist</item>
             </argument>
         </arguments>
     </type>
