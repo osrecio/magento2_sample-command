@@ -14,21 +14,6 @@ use Magento\Framework\Module\Manager as ModuleManager;
 
 class Modulelist extends Command
 {
-
-    /**
-     * Name argument
-     */
-    const NAME_ARGUMENT = 'name';
-    /**
-     * Allow option
-     */
-    const ALLOW_ANONYMOUS = 'allow-anonymous';
-    /**
-     * Anonymous name
-     */
-    const ANONYMOUS_NAME = 'Anonymous';
-
-
     /**
      * Full Module list
      *
