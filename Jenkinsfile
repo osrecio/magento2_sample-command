@@ -3,18 +3,18 @@ pipeline {
   stages {
     stage('Magento Setup') {
       steps {
-        sh '1'
+        echo 'magento_setup'
       }
     }
     stage('Tests') {
       steps {
         parallel(
           "integrarion": {
-            sh 'Unit'
+            echo 'integration'
             
           },
           "static": {
-            echo 'ie'
+            echo 'static'
             
           },
           "unit": {
