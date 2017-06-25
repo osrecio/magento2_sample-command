@@ -1,10 +1,5 @@
 pipeline {
-  agent {
-    node {
-      label 'qw'
-    }
-    
-  }
+  agent any
   stages {
     stage('Magento Setup') {
       steps {
